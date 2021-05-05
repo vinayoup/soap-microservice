@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ZTEST_SCHEMARequest xmlns="urn:sap-com:document:sap:rfc:functions">
+    <EX_IN>
+        <item>
+            <CUSTOMER>?</CUSTOMER>
+            <ISBN_10>?</ISBN_10>
+            <ISBN>?</ISBN>
+            <AUTHOR>?</AUTHOR>
+            <TITLE>?</TITLE>
+            <ATP>?</ATP>
+            <PRICE_NO_VAT>?</PRICE_NO_VAT>
+            <PRICE_VAT>?</PRICE_VAT>
+            <PRICE_NET>?</PRICE_NET>
+            <DISCOUNT>?</DISCOUNT>
+            <CURRENCY>?</CURRENCY>
+            <MAX_DEL_TIME>?</MAX_DEL_TIME>
+            <IN_STOCK>?</IN_STOCK>
+            <PUBLICATION_DAT>?</PUBLICATION_DAT>
+            <STATUS>?</STATUS>
+            <AVAIL_DATE>?</AVAIL_DATE>
+            <DISC_CODE>?</DISC_CODE>
+        </item>
+    </EX_IN>
+</ZTEST_SCHEMARequest>
