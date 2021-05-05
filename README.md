@@ -2,7 +2,7 @@
 SOAP microservice template project.
 
 # How to run
-mvn clean install
+mvn clean install \n
 java -jar target/otc-soap-webservice-0.0.1-SNAPSHOT.jar
 
 # wsdl url
