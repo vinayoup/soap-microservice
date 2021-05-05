@@ -1,14 +1,14 @@
 package com.oup;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.xml.bind.Marshaller;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
-
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import java.util.HashMap;
-import java.util.Map;
 
 @SpringBootApplication
 public class OTCWebServiceApplication {

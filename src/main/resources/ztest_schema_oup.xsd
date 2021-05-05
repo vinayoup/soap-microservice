@@ -28,12 +28,6 @@
 			   <xs:element name="item" type="tns:ZTEST_SCHEMA" minOccurs="0" maxOccurs="unbounded" />
             </xs:sequence>
          </xs:complexType>
-		 
-		<!--  <xs:element name="ZTEST_SCHEMA">
-            <xs:complexType>
-               <xs:sequence />
-            </xs:complexType>
-         </xs:element> -->
          <xs:element name="ZTEST_SCHEMARequest">
             <xs:complexType>
                <xs:sequence>

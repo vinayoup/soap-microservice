@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.producingwebservice;
+package com.oup.test;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.springframework.boot.test.context.SpringBootTest;
