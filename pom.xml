@@ -46,7 +46,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-			<!-- camel dependencies -->
+		<!-- camel dependencies -->
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-core</artifactId>
@@ -58,11 +58,19 @@
 			<version>2.24.3</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- <dependency>
-			<groupId>org.apache.activemq</groupId>
-			<artifactId>activemq-camel</artifactId>
-			<version>5.15.4</version>
-		</dependency> -->
+	
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-kafka</artifactId>
+			<version>2.24.3</version>
+			<!-- managed by spring boot BOM -->
+			<!-- <exclusions> <exclusion> <groupId>org.apache.kafka</groupId> <artifactId>kafka_2.11</artifactId> 
+				</exclusion> <exclusion> <groupId>org.apache.kafka</groupId> <artifactId>kafka-clients</artifactId> 
+				</exclusion> </exclusions> -->
+		</dependency>
+		
+		<!-- <dependency> <groupId>org.apache.activemq</groupId> <artifactId>activemq-camel</artifactId> 
+			<version>5.15.4</version> </dependency> -->
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-jaxb</artifactId>
